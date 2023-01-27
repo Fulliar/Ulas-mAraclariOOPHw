@@ -18,6 +18,7 @@ public abstract class UlasimArac implements IBakimYap, ISefereBasla, ITasitBilgi
     List<String> hatGuzergah;
 
 
+
     public UlasimArac( Double ucret, Integer kapasite, Integer maksimumHiz, String marka, List<String> hatGuzergah) {
         this.ucret = ucret;
         this.kapasite = kapasite;

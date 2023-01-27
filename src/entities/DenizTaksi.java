@@ -17,7 +17,7 @@ public class DenizTaksi extends DenizUlasimi {
         if(kart.getBakiye()>=getUcret()){
             if(status == true){
                 kart.setBakiye(kart.bakiye-getUcret());
-                System.out.println("İyi yolculuklar");
+                System.out.println("Deniz taksi, iyi yolculuklar diler.");
                 kart.bakiyeGoster();
             }else{
                 System.out.println("İlgili araç serviste değildir.");
